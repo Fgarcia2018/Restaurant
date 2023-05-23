@@ -130,8 +130,6 @@ main{
     height: 100%;
 }
 
-
-}
 footer{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -179,3 +177,5 @@ footer{
     .grid-one-image{
         display:none;
     }
+}
+    
