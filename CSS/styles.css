@@ -130,14 +130,7 @@ main{
     height: 100%;
 }
 
-@media screen and (max-width:768px){
-    .grid-one{
-        grid-template-columns:minmax(300px, 500px);
-        justify-content:center;
-    }
-    .grid-one-image{
-        display:none;
-    }
+
 }
 footer{
     display: grid;
@@ -178,3 +171,11 @@ footer{
   
 }
 
+@media screen and (max-width:768px){
+    .grid-one{
+        grid-template-columns:minmax(300px, 500px);
+        justify-content:center;
+    }
+    .grid-one-image{
+        display:none;
+    }
