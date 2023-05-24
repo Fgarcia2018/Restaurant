@@ -1,0 +1,11 @@
+.grid-one{
+    grid-template-columns:300px;
+    justify-content:center;
+}
+.grid-one-image{
+    display:none;
+}
+.grid-two-services{
+    grid-template-columns: repeat(auto-fit, minmax(100px,150px));
+    justify-content:center;  
+}
